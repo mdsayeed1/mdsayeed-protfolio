@@ -11,7 +11,7 @@ p{
 .oreange-color{
     color: orange;
 }
-section{
+.flexsible-container{
     display: flex;
 
 }
@@ -39,4 +39,39 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+footer p{
+    text-align: center;
+    padding: 5px;
+    background-color: tomato;
+    margin-top: 30px;
+}
+.babu{
+    text-align: center;
+}
+.third-para{
+    text-align: left;
+}
+.half-width p{
+    text-align: justify;
+}
+.new-color{
+    color: orange;
+}
+.experiance-bar{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 8px solid blue;
+}
+.experiance-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.mentu{
+    border-left: 8px solid tomato;
 }
